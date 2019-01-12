@@ -13,7 +13,7 @@
   "dependencies": {
     "countup.js": "latest",
     "vue": "latest",
-    "vue-countup-v2": "^1.0.3",
+    "vue-countup-v2": "^2.0.0",
     "vue-router": "latest"
   },
   "devDependencies": {
