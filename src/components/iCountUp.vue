@@ -1,6 +1,7 @@
 <template>
   <div class="iCountUp">
     <ICountUp
+      :delay="delay"
       :endVal="endVal"
       :options="options"
       @ready="onReady"
@@ -17,6 +18,7 @@
     },
     data() {
       return {
+        delay: 2000,
         endVal: 120500,
         options: {
           useEasing: true,
